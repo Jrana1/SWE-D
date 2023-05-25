@@ -1,20 +1,27 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Catalogue {
-
-
-    private Title book;
-    private Copy copy;
-
-    public void addBook(Integer bookID){
+    private ArrayList<Title> title=new ArrayList<Title>();
+    public void addBook(Title book){
         // TODO business logic
     }
-    public Title searchBook(Integer bookID){
+    public Title searchBook(Title book){
         // TODO business logic
         return  null;
     }
-    public void createBook(Title title){
+    public void createBook(String bookName,Integer bookID,String ISBN, Copy copy){
         // TODO business logic
+    }
+
+    public String generateBibTeX(Title title){
+        //TODO business logic
+        return null;
+    }
+    // in catalogue
+    public boolean checkISBN(Integer bookId){
+        //TODO business logic
+        return true;
     }
 
     // these methods have been added for extra functionality

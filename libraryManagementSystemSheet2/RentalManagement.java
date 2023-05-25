@@ -1,16 +1,11 @@
 
 public class RentalManagement {
-    public void rentBook(Integer bookID){
+    public void rentBook(Title book){
         // TODO business logic
     }
-    public void returnBook(Integer bookID){
+    public void returnBook(Title book){
         // TODO business logic
     }
-    public boolean checkAvailability(Integer bookId){
-        // TODO business logic
-        return false;
-    }
-
     public void updateInventory(){
         // TODO business logic
     }

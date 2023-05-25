@@ -1,8 +1,9 @@
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 public class UserManagement{
-
+    private ArrayList<Lender>users = new ArrayList<>();
     public void registerUser(Lender lender){
         // TODO business logic
     }
@@ -19,7 +20,7 @@ public class UserManagement{
         // TODO business logic
         return null;
     }
-    public  void modifyLender(Integer lenderID){
+    public  void modifyLender(Lender lender){
         // TODO business logic
     }
 
